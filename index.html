@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sowmiya S — Portfolio</title>
+  <meta name="description" content="Portfolio of Sowmiya S — ECE student, aspiring Full-Stack Developer">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="wrap">
+    <!-- Header -->
+    <header>
+      <div class="brand">
+        <div class="avatar">SS</div>
+        <div>
+          <h1>Sowmiya S</h1>
+          <p class="sub">B.E. ECE — K. Ramakrishnan College of Engineering, Trichy</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- About Section -->
+    <section class="card" id="about">
+      <h2>About Me</h2>
+      <p>
+        I am an Electronics and Communication Engineering student passionate about software development and embedded systems.
+        I love learning new technologies, building full-stack projects, and solving real-world problems.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Electronic Patient Management System (Python)</h3>
+          <p>Digitized hospital records, appointments, and storage.</p>
+        </div>
+        <div class="project">
+          <h3>Payroll Management System</h3>
+          <p>Web-based payslip and employee salary generator.</p>
+        </div>
+        <div class="project">
+          <h3>Text Editor with Stack Operations</h3>
+          <p>Implemented undo/redo and clipboard functions using stack data structure.</p>
+        </div>
+        <div class="project">
+          <h3>Interactive Learning Desk (Prototype)</h3>
+          <p>Smart IoT-based desk design with AR/VR elements for interactive learning.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li><span>C</span><div class="bar"><i style="width:78%"></i></div></li>
+        <li><span>Python</span><div class="bar"><i style="width:86%"></i></div></li>
+        <li><span>Java</span><div class="bar"><i style="width:75%"></i></div></li>
+        <li><span>HTML & CSS</span><div class="bar"><i style="width:82%"></i></div></li>
+        <li><span>Git / VS Code</span><div class="bar"><i style="width:78%"></i></div></li>
+      </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section class="card" id="education">
+      <h2>Education</h2>
+      <p><strong>K. Ramakrishnan College of Engineering, Trichy</strong><br>
+         B.E. Electronics & Communication — Expected 2027<br>
+         CGPA: 7.74 (up to 4th Sem)
+      </p>
+      <p><strong>SRM Public School (CBSE)</strong><br>
+         HSC — 79.2% | SSC — 93.2%
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="card" id="contact">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:sowmi162005@gmail.com">sowmi162005@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918903963178">+91 8903963178</a></p>
+
+      <form onsubmit="handleContact(event)">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="email" placeholder="Your email" required>
+        <textarea id="message" rows="4" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="contact-status"></p>
+    </section>
+
+    <footer>
+      <p>© 2025 Sowmiya S — Built with ❤️ | Responsive & Accessible Portfolio</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+  
+</body>
+</html>
